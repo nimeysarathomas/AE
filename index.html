@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>AE Wood Industries LLC</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        
+        
+        <script>
+            var interval = setInterval(function(){
+          var countForVideo = document.getElementById('vid').readyState;
+          if(countForVideo == 4){
+            document.getElementById('vid').play();
+            clearInterval(interval);
+          }
+        },2000);
+        </script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body>
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="index.html">
+                                <img class="logo-img logo-img-main" src="img/1920x1080/aewoods-6.png" alt="AE Wood Logo">
+                                <img class="logo-img logo-img-active" src="img/1920x1080/aewoods-6.png" alt="AE Wood Logo">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        
+                        <div class="menu-container">
+                            <ul class="navbar-nav navbar-nav-right">
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Home</a></li>
+                                <li class="nav-item "><a class="nav-item-child nav-item-hover" href="#products" >Products</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#service">Services</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="HeatTreatment.html">Heat Treatment</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#connect">(+971) 553742299</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">Contact</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+       <!-- <div  data-ride="carousel" style="width:100%; height:auto; background-size: cover; " data-auto-height="true">
+            <img src="img/1920x1080/Introduction8.gif">
+               
+        </div>
+        -->
+        <div  data-ride="carousel" data-auto-height="true" style="width:100%; height:auto; background-size: cover; ">
+            
+            <video id="vid" class="img-responsive" loop="true" autoplay="autoplay" muted poster="img/1920x1080/aebanner.png" >
+                <source src="img/1920x1080/ae.mp4" type="video/mp4"> 
+                    <img src="img/1920x1080/aebanner.png" title="AE Wood Industry Introduction" />  
+              </video>    
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- Service -->
+        <div class="bg-color-sky-light" data-auto-height="true" id="service">
+            <div class="content-lg container">
+                <div class="row row-space-1 margin-b-2">
+                    <div class="col-sm-4 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-chemistry"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Heat Treatment</h3>
+                                    <p class="margin-b-5">World Class Italian Heat Treatment Plant providing ISPM-15 STANDARDS for New and Refurbished Products</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon far fa-gem "></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>High Quality</h3>
+                                    <p class="margin-b-5">We ensure multistage quality control throughout the entire production process to deliver pallets with 0 problems.</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon fa fa-trophy"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Competitive</h3>
+                                    <p class="margin-b-5">Our Operational efficiencies allow us to be competitive in delivering exceptional customer service with high Quality products.</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+
+                <div class="row row-space-1">
+                    <div class="col-sm-4 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Responsive Service</h3>
+                                    <p class="margin-b-5">We are Dedicated to exceed your expectations.</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-speedometer"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Fast Delivery</h3>
+                                    <p class="margin-b-5">24/7 Delivery Processing in Trailers and Trucks.</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon fas fa-dumpster"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Wood Collection</h3>
+                                    <p class="margin-b-5">We belive in Sustainability. Collects Wood from your Site & promote Recycling for a better world.</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Service -->
+
+        <!-- Latest Products -->
+        <div class="content-lg container" id="products">
+            <div class="row margin-b-40">
+                <div class="col-sm-6">
+                    <h2>Our Products</h2>
+                    <p>All our products are available in international standard measurements with customization option to support individual industry requirements.</p>
+                </div>
+            </div>
+            <!--// end row -->
+
+            <div class="row">
+                <!-- Latest Products -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive" src="img/970x647/01.png" alt="Latest Products Image">
+                        </div>
+                    </div>
+                    <h4><a href="BrandNewPallets.html">Brand New Pallets</a> <span class="text-uppercase margin-l-20">Soft & Hard Wood</span></h4>
+                    <p>AE designs, engineers and fabricates new wood pallets with options for customization in dimension, size, wood, colour. Pallets under go Heat Treatment. 
+                    </p>
+                    <a class="link" href="BrandNewPallets.html">Read More</a>
+                </div>
+                <!-- End Latest Products -->
+ 
+                <!-- Latest Products -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive" src="img/970x647/02.png" alt="Latest Products Image">
+                        </div>
+                    </div>
+                    <h4><a href="RecycledPallets.html">Recycled Pallets</a> <span class="text-uppercase margin-l-20">Eco Friendly</span></h4>
+                    <p>An affordable alternatives to New Pallets. Every pallet is sorted, inspected, and repaired to meet the quality standards of our customers. We ensure you get just the best. 
+                    </p>
+                    <a class="link" href="RecycledPallets.html">Read More</a>
+                </div>
+                <!-- End Latest Products -->
+
+                <!-- Latest Products -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive" src="img/970x647/003.png" alt="Latest Products Image">
+                        </div>
+                    </div>
+                    <h4><a href="SpecialPallets.html">SPECIAL PALLETS</a> <span class="text-uppercase margin-l-20">Design</span></h4>
+                    <p>AE will build uniquely to the client’s needs from finished specifications or Engineer an effective and safe design based on your shipping and stacking needs. </p>
+                    <a class="link" href="SpecialPallets.html">Read More</a>
+                </div>
+                <!-- End Latest Products -->
+            </div>
+            <!--// end row -->
+            <br><br>
+            <div class="row">
+                <!-- Latest Products -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive" src="img/970x647/004.png" alt="Latest Products Image">
+                        </div>
+                    </div>
+                    <h4><a href="Crates.html">Wooden Crates</a> <span class="text-uppercase margin-l-20">NEW</span></h4>
+                    <p>Crates are an excellent option for lighter, less-expensive merchandise that can tolerate shipping and storage with modest protection. 
+                    </p>
+                    <a class="link" href="Crates.html">Read More</a>
+                </div>
+                <!-- End Latest Products -->
+ 
+                <!-- Latest Products -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive" src="img/970x647/05.png" alt="Latest Products Image">
+                        </div>
+                    </div>
+                    <h4><a href="Boxes.html">Wooden Boxes</a> <span class="text-uppercase margin-l-20">NEW</span></h4>
+                    <p>The solid wooden box is resilient, completely enclosed and an optimal packaging solution for heavy equipment and loose goods in greater volume or size.
+                    </p>
+                    <a class="link" href="Boxes.html">Read More</a>
+                </div>
+                <!-- End Latest Products -->
+
+                <!-- Latest Products -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive" src="img/970x647/06.png" alt="Latest Products Image">
+                        </div>
+                    </div>
+                    <h4><a href="CableDrums.html">CABLE DRUMS</a> <span class="text-uppercase margin-l-20">NEW</span></h4>
+                    <p>High Quality wooden cable drums with numerous options like Flange diameters from 400 mm - max 2500 mm, reusable or disposable drums.</p>
+                    <a class="link" href="CableDrums.html">Read More</a>
+                </div>
+                <!-- End Latest Products -->
+            </div>
+        </div>
+        <!-- End Latest Products -->
+<!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer" id="connect">
+            <!-- Links -->
+            <div class="footer-seperator">
+                <div class="content-lg container">
+                    <div class="row">
+                        <div class="col-sm-2 sm-margin-b-50">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a class="footer-list-link" href="index.html">Home</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#products">Products</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#service">Services</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="HeatTreatment.html">Heat Treatment</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="contact.html">Contact</a></li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-30">
+                            <h2 class="color-white">Contact US</h2>
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">UAE : (+971) 553742299</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">sales@aewoodindustry.com</a></li> 
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-30 text-left">
+                            <img class="footer-logo" src="img/1920x1080/aewoods.png" alt="AE Logo">
+                            <!-- End List -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+            <!-- End Links -->
+
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-9 text-right">
+                        <p class="margin-b-0"><a> AE Wood Ind LLC  | </a>   <i class="color-base"> Dedicated to exceed your expectations.</i></p>  
+                </div>
+                <!--// end row -->
+            </div></div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+    </body>
+    <!-- END BODY -->
+</html>
